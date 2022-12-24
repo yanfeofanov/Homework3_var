@@ -106,8 +106,9 @@ public class Main {
         int totalDenisZpOneYear = denisZpOneYearIncrease-denisZpOneYear;//Вычесляем разницу за год у Дениса после повышения
         int totalKristinaZpOneYear = kristinaZpOneYearIncrease-kristinaZpOneYear;//Вычесляем разницу за год у Кристины после повышения
         System.out.println("Маша теперь получает "+mashaZpMonthIncrease+" рублей.Годовой доход вырос на "+totalMashaZpOneYear+" рублей");
-        System.out.println("Маша теперь получает "+denisZpMonthIncrease+" рублей.Годовой доход вырос на "+totalDenisZpOneYear+" рублей");
-        System.out.println("Маша теперь получает "+kristinaZpMonthIncrease+" рублей.Годовой доход вырос на "+totalKristinaZpOneYear+" рублей");
+        System.out.println("Денис теперь получает "+denisZpMonthIncrease+" рублей.Годовой доход вырос на "+totalDenisZpOneYear+" рублей");
+        System.out.println("Кристина теперь получает "+kristinaZpMonthIncrease+" рублей.Годовой доход вырос на "+totalKristinaZpOneYear+" рублей");
+
 
   //
 
