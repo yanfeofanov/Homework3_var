@@ -75,6 +75,23 @@ public class Main {
         System.out.println("Спортзавтрак в граммах составит "+weightTotalProducts+" гр.");
         System.out.println("Спортзавтрак в килограммах составит "+weightTotalProducts/weightKg+" кг.");
 
+        // Задача №7
+
+        int weightAllKg = 7;
+        int weightConst = 1000;
+        double weightOneDayMin = 250;
+        double weightOneDayMax = 500;
+        double weightGr = (double)weightAllKg * (double)weightConst; // Переводим кг в граммы
+        int oneDayMin = (int)weightGr/(int)weightOneDayMin; // Вычесление если 250гр. в день
+        int oneDayMax = (int)weightGr/(int)weightOneDayMax; // Вычесление если 500гр. в день
+        System.out.println("Если спротсмен будет терять 250гр. в день, то на это уйдет "+oneDayMin+" дней");
+        System.out.println("Если спротсмен будет терять 500гр. в день, то на это уйдет " +oneDayMax+" дней");
+        System.out.println("Чтобы добиться результата, спортсмену в среднем птребуется " +(oneDayMin+oneDayMax)/2+" день");
+
+        // Задача №8
+
+
+
 
 
 
