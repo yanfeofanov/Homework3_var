@@ -109,7 +109,7 @@ public class Main {
         System.out.println("Маша теперь получает "+denisZpMonthIncrease+" рублей.Годовой доход вырос на "+totalDenisZpOneYear+" рублей");
         System.out.println("Маша теперь получает "+kristinaZpMonthIncrease+" рублей.Годовой доход вырос на "+totalKristinaZpOneYear+" рублей");
 
-
+  //
 
 
 
