@@ -90,6 +90,25 @@ public class Main {
 
         // Задача №8
 
+        int mashaZp = 67760;
+        int denisZp = 83690;
+        int kristinaZp = 76230;
+        int mashaZpOneYear = (mashaZp*12);                 // Вычесляем сколько зп у Маши будет за год до повышения
+        int denisZpOneYear = (denisZp*12);                // Вычесляем сколько зп у Дениса будет за год до повышения
+        int kristinaZpOneYear = (kristinaZp*12);         // Вычесляем сколько зп у Кристины будет за год до повышения
+        int mashaZpMonthIncrease = (mashaZp*10)/100+(mashaZp);         // Вычесляем месячную зп с повышением на 10% у Маши
+        int denisZpMonthIncrease = (denisZp*10)/100+(denisZp);         // Вычесляем месячную зп с повышением на 10% у Дениса
+        int kristinaZpMonthIncrease = (kristinaZp*10)/100+(kristinaZp);   // Вычесляем месячную зп с повышением на 10% у Крестины
+        int mashaZpOneYearIncrease = (mashaZpMonthIncrease*12);  // Вычесляем сколько зп у Маши будет за год после повышения
+        int denisZpOneYearIncrease = (denisZpMonthIncrease*12);  // Вычесляем сколько зп у Дениса будет за год после повышения
+        int kristinaZpOneYearIncrease = (kristinaZpMonthIncrease*12);   // Вычесляем сколько зп у Крестины будет за год после повышения
+        int totalMashaZpOneYear = mashaZpOneYearIncrease-mashaZpOneYear;//Вычесляем разницу за год у Маши после повышения
+        int totalDenisZpOneYear = denisZpOneYearIncrease-denisZpOneYear;//Вычесляем разницу за год у Дениса после повышения
+        int totalKristinaZpOneYear = kristinaZpOneYearIncrease-kristinaZpOneYear;//Вычесляем разницу за год у Кристины после повышения
+        System.out.println("Маша теперь получает "+mashaZpMonthIncrease+" рублей.Годовой доход вырос на "+totalMashaZpOneYear+" рублей");
+        System.out.println("Маша теперь получает "+denisZpMonthIncrease+" рублей.Годовой доход вырос на "+totalDenisZpOneYear+" рублей");
+        System.out.println("Маша теперь получает "+kristinaZpMonthIncrease+" рублей.Годовой доход вырос на "+totalKristinaZpOneYear+" рублей");
+
 
 
 
